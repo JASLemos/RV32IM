@@ -1,0 +1,47 @@
+{
+    "Report Information": {
+        "Copyright": "Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.",
+        "Tool Version": "Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024",
+        "Date": "Tue Apr 29 11:35:30 2025",
+        "Host": "DESKTOP-IQB8PGC running 64-bit major release  (build 9200)",
+        "Command": "report_design_analysis -disable_dataflow_error -qor_summary -disable_device_warning -json {E:/IC/Mark VI/Vivado/CPU/CPU.runs/impl_1/.Xil/Vivado-9924-DESKTOP-IQB8PGC/dcp0/CPU_rda.json}",
+        "Design": "CPU",
+        "Device": "xc7a50t",
+        "Design State": "Synthesized"
+    },
+    "Design QoR Summary": [{
+            "Task Name": "synth_design",
+            "Options": "-define default::[not_specified] -vhdl_define default::[not_specified]",
+            "Directives": "",
+            "Runtime(mins)": "3",
+            "WNS(ns)": "",
+            "TNS(ns)": "",
+            "WHS(ns)": "",
+            "THS(ns)": "",
+            "RQA": "",
+            "Global Cong Level N-E-S-W": "",
+            "Global Cong Tile% N-E-S-W": "",
+            "Long Cong Level N-E-S-W": "",
+            "Long Cong Tile% N-E-S-W": "",
+            "Short Cong Level N-E-S-W": "",
+            "Short Cong Tile% N-E-S-W": "",
+            "Number of threads": "2"
+        }, {
+            "Task Name": "opt_design",
+            "Options": "",
+            "Directives": "",
+            "Runtime(mins)": "0",
+            "WNS(ns)": "",
+            "TNS(ns)": "",
+            "WHS(ns)": "",
+            "THS(ns)": "",
+            "RQA": "",
+            "Global Cong Level N-E-S-W": "",
+            "Global Cong Tile% N-E-S-W": "",
+            "Long Cong Level N-E-S-W": "",
+            "Long Cong Tile% N-E-S-W": "",
+            "Short Cong Level N-E-S-W": "",
+            "Short Cong Tile% N-E-S-W": "",
+            "Number of threads": "2"
+        }]
+}
