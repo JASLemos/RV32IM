@@ -1,0 +1,732 @@
+#-----------------------------------------------------------
+# Vivado v2024.2 (64-bit)
+# SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
+# IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
+# SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
+# Start of session at: Mon Apr 28 17:39:58 2025
+# Process ID         : 12776
+# Current directory  : E:/IC/Mark VI/Vivado/CPU
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent10832 E:\IC\Mark VI\Vivado\CPU\CPU.xpr
+# Log file           : E:/IC/Mark VI/Vivado/CPU/vivado.log
+# Journal file       : E:/IC/Mark VI/Vivado/CPU\vivado.jou
+# Running On         : DESKTOP-IQB8PGC
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 19045
+# Processor Detail   : AMD Ryzen 5 5500U with Radeon Graphics         
+# CPU Frequency      : 2096 MHz
+# CPU Physical cores : 6
+# CPU Logical cores  : 12
+# Host memory        : 15915 MB
+# Swap memory        : 8589 MB
+# Total Virtual      : 24505 MB
+# Available Virtual  : 10015 MB
+#-----------------------------------------------------------
+start_gui
+open_project {E:/IC/Mark VI/Vivado/CPU/CPU.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Vivado/Vivado/2024.2/data/ip'.
+open_project: Time (s): cpu = 00:00:27 ; elapsed = 00:00:13 . Memory (MB): peak = 1254.582 ; gain = 156.996
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+add_files {{E:/IC/Mark VI/src/Booth/Booth.v} {E:/IC/Mark VI/src/Booth/CSA.v} {E:/IC/Mark VI/src/Booth/CLA.v}}
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+update_compile_order -fileset sources_1
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+ERROR: [Common 17-180] Spawn failed: No error
+synth_design -top CPU -part xc7a50tcsg324-3 -lint 
+Command: synth_design -top CPU -part xc7a50tcsg324-3 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 12360
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:17 ; elapsed = 00:00:15 . Memory (MB): peak = 1749.559 ; gain = 453.746
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'MulResultM', assumed default net type 'wire' [E:/IC/Mark VI/src/CPU.v:181]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (1#1) [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (2#1) [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (3#1) [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (5#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark VI/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (6#1) [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (7#1) [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (8#1) [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (9#1) [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (10#1) [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (11#1) [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (12#1) [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (13#1) [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (14#1) [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Divisor' [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Divisor' (15#1) [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Booth' [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-6157] synthesizing module 'CSA' [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CSA' (16#1) [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [E:/IC/Mark VI/src/Booth/CLA.v:1]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (17#1) [E:/IC/Mark VI/src/Booth/CLA.v:1]
+ERROR: [Synth 8-685] variable 'prod' should not be used in output port connection [E:/IC/Mark VI/src/Booth/Booth.v:112]
+ERROR: [Synth 8-6156] failed synthesizing module 'Booth' [E:/IC/Mark VI/src/Booth/Booth.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'EXU' [E:/IC/Mark VI/src/EXU.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1868.871 ; gain = 573.059
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+59 Infos, 1 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:20 . Memory (MB): peak = 1868.871 ; gain = 573.059
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+synth_design -top CPU -part xc7a50tcsg324-3 -lint 
+Command: synth_design -top CPU -part xc7a50tcsg324-3 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1868.871 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-11241] undeclared symbol 'MulResultM', assumed default net type 'wire' [E:/IC/Mark VI/src/CPU.v:181]
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (1#1) [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (2#1) [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (3#1) [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (5#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark VI/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (6#1) [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (7#1) [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (8#1) [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (9#1) [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (10#1) [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (11#1) [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (12#1) [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (13#1) [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (14#1) [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Divisor' [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Divisor' (15#1) [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Booth' [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-6157] synthesizing module 'CSA' [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CSA' (16#1) [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [E:/IC/Mark VI/src/Booth/CLA.v:1]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (17#1) [E:/IC/Mark VI/src/Booth/CLA.v:1]
+WARNING: [Synth 8-7071] port 'Cout' of module 'CLA' is unconnected for instance 'CPA' [E:/IC/Mark VI/src/Booth/Booth.v:112]
+WARNING: [Synth 8-7023] instance 'CPA' of module 'CLA' has 5 connections declared, but only 4 given [E:/IC/Mark VI/src/Booth/Booth.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'Booth' (18#1) [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (19#1) [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark VI/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (20#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark VI/src/MAU.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (21#1) [E:/IC/Mark VI/src/MAU.v:1]
+ERROR: [Synth 8-11365] for the instance 'MemoryAccessUnit' of module 'MAU' declared at 'E:/IC/Mark VI/src/MAU.v:1', named port connection 'MulResultM' does not exist [E:/IC/Mark VI/src/CPU.v:181]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark VI/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark VI/src/LoadDecoder.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'LoadDecoder' [E:/IC/Mark VI/src/LoadDecoder.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'WBU' [E:/IC/Mark VI/src/WBU.v:1]
+ERROR: [Synth 8-6156] failed synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1888.117 ; gain = 19.246
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+65 Infos, 4 Warnings, 0 Critical Warnings and 4 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:19 . Memory (MB): peak = 1888.117 ; gain = 19.246
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+synth_design -top CPU -part xc7a50tcsg324-3 -lint 
+Command: synth_design -top CPU -part xc7a50tcsg324-3 -lint
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a50t'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\MAU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\CPU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\WBU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\EXU.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+WARNING: [filemgmt 56-199] Attempt to get parsing info during refresh. "On-the-fly" syntax checking information may be incorrect. [E:\IC\Mark VI\src\Booth\Booth.v:]
+ERROR: [Common 17-180] Spawn failed: No error
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:15 ; elapsed = 00:00:14 . Memory (MB): peak = 1888.117 ; gain = 0.000
+---------------------------------------------------------------------------------
+Clean up Linter database...
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (1#1) [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (2#1) [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (3#1) [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (4#1) [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (5#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark VI/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (6#1) [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (7#1) [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (8#1) [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (9#1) [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (10#1) [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (11#1) [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (12#1) [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (13#1) [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (14#1) [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Divisor' [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Divisor' (15#1) [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Booth' [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-6157] synthesizing module 'CSA' [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CSA' (16#1) [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [E:/IC/Mark VI/src/Booth/CLA.v:1]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (17#1) [E:/IC/Mark VI/src/Booth/CLA.v:1]
+WARNING: [Synth 8-7071] port 'Cout' of module 'CLA' is unconnected for instance 'CPA' [E:/IC/Mark VI/src/Booth/Booth.v:112]
+WARNING: [Synth 8-7023] instance 'CPA' of module 'CLA' has 5 connections declared, but only 4 given [E:/IC/Mark VI/src/Booth/Booth.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'Booth' (18#1) [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (19#1) [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark VI/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (20#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark VI/src/MAU.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (21#1) [E:/IC/Mark VI/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark VI/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark VI/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LoadDecoder' (22#1) [E:/IC/Mark VI/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WBU' (23#1) [E:/IC/Mark VI/src/WBU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (24#1) [E:/IC/Mark VI/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1892.250 ; gain = 4.133
+---------------------------------------------------------------------------------
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.2 (win64) Build 5239630 Fri Nov 08 22:35:27 MST 2024
+| Date         : Mon Apr 28 17:50:46 2025
+| Host         : DESKTOP-IQB8PGC running 64-bit major release  (build 9200)
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+RTL Linter Report
+
+Table of Contents
+-----------------
+1. Summary
+
+1. Summary
+----------
+
++-----------+------------------+--------------+----------+
+| Rule ID   | Severity         | # Violations | # Waived |
++-----------+------------------+--------------+----------+
+| ASSIGN-5  | WARNING          | 1            | 0        |
+| ASSIGN-6  | WARNING          | 14           | 0        |
+| ASSIGN-10 | WARNING          | 1            | 0        |
+| RESET-3   | CRITICAL WARNING | 1            | 0        |
++-----------+------------------+--------------+----------+
+
+
+WARNING: [Synth 37-124] [ASSIGN-5]Some bits in 'ii' are not set. First unset bit index is 0. 
+RTL Name 'ii', Hierarchy 'Booth', File 'Booth.v', Line 16.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C0' are not read. First unread bit index is 63. 
+RTL Name 'C0', Hierarchy 'Booth', File 'Booth.v', Line 75.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C1' are not read. First unread bit index is 63. 
+RTL Name 'C1', Hierarchy 'Booth', File 'Booth.v', Line 75.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C10' are not read. First unread bit index is 63. 
+RTL Name 'C10', Hierarchy 'Booth', File 'Booth.v', Line 97.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C11' are not read. First unread bit index is 63. 
+RTL Name 'C11', Hierarchy 'Booth', File 'Booth.v', Line 97.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C12' are not read. First unread bit index is 63. 
+RTL Name 'C12', Hierarchy 'Booth', File 'Booth.v', Line 103.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C13' are not read. First unread bit index is 63. 
+RTL Name 'C13', Hierarchy 'Booth', File 'Booth.v', Line 108.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C2' are not read. First unread bit index is 63. 
+RTL Name 'C2', Hierarchy 'Booth', File 'Booth.v', Line 75.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C3' are not read. First unread bit index is 63. 
+RTL Name 'C3', Hierarchy 'Booth', File 'Booth.v', Line 75.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C4' are not read. First unread bit index is 63. 
+RTL Name 'C4', Hierarchy 'Booth', File 'Booth.v', Line 75.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C5' are not read. First unread bit index is 63. 
+RTL Name 'C5', Hierarchy 'Booth', File 'Booth.v', Line 84.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C6' are not read. First unread bit index is 63. 
+RTL Name 'C6', Hierarchy 'Booth', File 'Booth.v', Line 84.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C7' are not read. First unread bit index is 63. 
+RTL Name 'C7', Hierarchy 'Booth', File 'Booth.v', Line 84.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C8' are not read. First unread bit index is 63. 
+RTL Name 'C8', Hierarchy 'Booth', File 'Booth.v', Line 91.
+WARNING: [Synth 37-123] [ASSIGN-6]Some bits in 'C9' are not read. First unread bit index is 63. 
+RTL Name 'C9', Hierarchy 'Booth', File 'Booth.v', Line 91.
+CRITICAL WARNING: [Synth 37-111] [RESET-3]Synchronous reset not found on register Q_reg and its enable logic contains synchronous reset in same always/process block.
+RTL Name 'Q_reg', Hierarchy 'Divisor', File 'E:/IC/Mark VI/src/Divisor.v', Line 21.
+WARNING: [Synth 37-125] [ASSIGN-10]Some bits in IO 'MulControlE' are not read. First unread bit index is 0. 
+RTL Name 'MulControlE', Hierarchy 'EXU', File 'EXU.v', Line 4.
+INFO: [Synth 37-85] Total of 17 linter message(s) generated.
+INFO: [Synth 37-45] Linter Run Finished!
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1911.855 ; gain = 23.738
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 34 Warnings, 1 Critical Warnings and 2 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:21 . Memory (MB): peak = 1911.855 ; gain = 23.738
+ERROR: [Common 17-39] 'synth_design' failed due to earlier errors.
+synth_design -rtl -rtl_skip_mlo -name rtl_1
+Command: synth_design -rtl -rtl_skip_mlo -name rtl_1
+Starting synth_design
+Using part: xc7a50tcsg324-3
+Top: CPU
+INFO: [Device 21-403] Loading part xc7a50tcsg324-3
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:17 ; elapsed = 00:00:14 . Memory (MB): peak = 1963.645 ; gain = 29.297
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'CPU' [E:/IC/Mark VI/src/CPU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'HazardControl' [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'HazardControl' (0#1) [E:/IC/Mark VI/src/HazardControl.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IFU' [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux' [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux' (0#1) [E:/IC/Mark VI/src/Mux.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Register' [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Register' (0#1) [E:/IC/Mark VI/src/Register.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Adder' [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Adder' (0#1) [E:/IC/Mark VI/src/Adder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ROM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ROM' (0#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/ROM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'a' does not match port width (8) of module 'ROM' [E:/IC/Mark VI/src/IFU.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'IFU' (0#1) [E:/IC/Mark VI/src/IFU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'IDU' [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Control' [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Control' (0#1) [E:/IC/Mark VI/src/Control.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RegisterFile' [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'RegisterFile' (0#1) [E:/IC/Mark VI/src/RegisterFile.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Extend' [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Extend' (0#1) [E:/IC/Mark VI/src/Extend.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'IDU' (0#1) [E:/IC/Mark VI/src/IDU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'EXU' [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Mux4x1' [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Mux4x1' (0#1) [E:/IC/Mark VI/src/Mux4x1.v:1]
+INFO: [Synth 8-6157] synthesizing module 'StoreDecoder' [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'StoreDecoder' (0#1) [E:/IC/Mark VI/src/StoreDecoder.v:1]
+INFO: [Synth 8-6157] synthesizing module 'BranchUnit' [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'BranchUnit' (0#1) [E:/IC/Mark VI/src/BranchUnit.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (0#1) [E:/IC/Mark VI/src/ALU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Divisor' [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'Divisor' (0#1) [E:/IC/Mark VI/src/Divisor.v:1]
+INFO: [Synth 8-6157] synthesizing module 'Booth' [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-226] default block is never used [E:/IC/Mark VI/src/Booth/Booth.v:33]
+INFO: [Synth 8-6157] synthesizing module 'CSA' [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CSA' (0#1) [E:/IC/Mark VI/src/Booth/CSA.v:1]
+INFO: [Synth 8-6157] synthesizing module 'CLA' [E:/IC/Mark VI/src/Booth/CLA.v:1]
+	Parameter WIDTH bound to: 64 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'CLA' (0#1) [E:/IC/Mark VI/src/Booth/CLA.v:1]
+WARNING: [Synth 8-7071] port 'Cout' of module 'CLA' is unconnected for instance 'CPA' [E:/IC/Mark VI/src/Booth/Booth.v:112]
+WARNING: [Synth 8-7023] instance 'CPA' of module 'CLA' has 5 connections declared, but only 4 given [E:/IC/Mark VI/src/Booth/Booth.v:112]
+INFO: [Synth 8-6155] done synthesizing module 'Booth' (0#1) [E:/IC/Mark VI/src/Booth/Booth.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'EXU' (0#1) [E:/IC/Mark VI/src/EXU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'MAU' [E:/IC/Mark VI/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'RAM' [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'RAM' (0#1) [E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-12776-DESKTOP-IQB8PGC/realtime/RAM_stub.v:6]
+WARNING: [Synth 8-689] width (30) of port connection 'addra' does not match port width (8) of module 'RAM' [E:/IC/Mark VI/src/MAU.v:18]
+INFO: [Synth 8-6155] done synthesizing module 'MAU' (0#1) [E:/IC/Mark VI/src/MAU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WBU' [E:/IC/Mark VI/src/WBU.v:1]
+INFO: [Synth 8-6157] synthesizing module 'LoadDecoder' [E:/IC/Mark VI/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'LoadDecoder' (0#1) [E:/IC/Mark VI/src/LoadDecoder.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WBU' (0#1) [E:/IC/Mark VI/src/WBU.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'CPU' (0#1) [E:/IC/Mark VI/src/CPU.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:22 ; elapsed = 00:00:19 . Memory (MB): peak = 2072.172 ; gain = 137.824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 2100.582 ; gain = 166.234
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:22 ; elapsed = 00:00:20 . Memory (MB): peak = 2100.582 ; gain = 166.234
+---------------------------------------------------------------------------------
+INFO: [Project 1-454] Reading design checkpoint 'e:/IC/Mark VI/Vivado/CPU/CPU.gen/sources_1/ip/ROM/ROM.dcp' for cell 'InstructionFetchUnit/InstructionMemory'
+INFO: [Project 1-454] Reading design checkpoint 'e:/IC/Mark VI/Vivado/CPU/CPU.gen/sources_1/ip/RAM/RAM.dcp' for cell 'MemoryAccessUnit/DataMemory'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.369 . Memory (MB): peak = 2129.449 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2024.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/IC/Mark VI/constraints/RISCV.xdc]
+Finished Parsing XDC File [E:/IC/Mark VI/constraints/RISCV.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 2218.414 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:01:17 ; elapsed = 00:00:42 . Memory (MB): peak = 2447.902 ; gain = 513.555
+73 Infos, 4 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:01:23 ; elapsed = 00:00:50 . Memory (MB): peak = 2447.902 ; gain = 536.047
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-12493] Simulation top is 'testbench'
+WARNING: [Vivado 12-13340] Unable to auto find GCC executables from simulator install path! (path not set)
+INFO: [Vivado 12-5698] Checking validity of IPs in the design for the 'XSim' simulator...
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [Vivado 12-4795] Using compiled simulation libraries for IPs
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-72] Using boost library from 'E:/Vivado/Vivado/2024.2/tps/boost_1_72_0'
+INFO: [USF-XSim-7] Finding pre-compiled libraries...
+INFO: [USF-XSim-11] File 'E:/Vivado/Vivado/2024.2/data/xsim/xsim.ini' copied to run dir:'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-54] Inspecting design source files for 'testbench' in fileset 'sim_1'...
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/ROM.mif'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/muldiv.coe'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/riscvtest.coe'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/ROM.coe'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/donkey.coe'
+INFO: [SIM-utils-43] Exported 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim/donkey2.coe'
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj testbench_vlog.prj"
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/Vivado/CPU/CPU.gen/sources_1/ip/RAM/sim/RAM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RAM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/Vivado/CPU/CPU.gen/sources_1/ip/ROM/sim/ROM.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ROM
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/ALU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/Booth.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Booth
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/BranchUnit.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module BranchUnit
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/CLA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CLA
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/CPU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CPU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/CSA.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module CSA
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Control.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Control
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Divisor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Divisor
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/EXU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module EXU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/HazardControl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module HazardControl
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/IDU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IDU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/IFU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module IFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/LoadDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module LoadDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/MAU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module MAU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Mux.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Mux4x1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Mux4x1
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Register.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Register
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/RegisterFile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module RegisterFile
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/StoreDecoder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module StoreDecoder
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/WBU.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module WBU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/tests/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [USF-XSim-69] 'compile' step finished in '4' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'E:/IC/Mark VI/Vivado/CPU/CPU.sim/sim_1/behav/xsim'
+"xelab --incr --debug typical --relax --mt 2 -L xil_defaultlib -L blk_mem_gen_v8_4_9 -L dist_mem_gen_v8_0_15 -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot testbench_behav xil_defaultlib.testbench xil_defaultlib.glbl -log elaborate.log"
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'run_program' was cancelled
+INFO: [Vivado 12-5357] 'elaborate' step aborted
+launch_simulation: Time (s): cpu = 00:00:03 ; elapsed = 00:00:11 . Memory (MB): peak = 2473.414 ; gain = 13.883
+INFO: [Common 17-344] 'launch_simulation' was cancelled
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 29 08:07:41 2025...
