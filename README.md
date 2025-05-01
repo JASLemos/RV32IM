@@ -17,6 +17,66 @@ A simple, scalar, in order, 5 stage pipelined RISC-V RV32IM CPU designed for aca
 
 ---
 
+## Program test
+
+- The RISC-V assembly program that was used to test the CPU is as shown:
+
+```
+.global _boot
+.text
+
+_boot:                    
+   li x1, 20	# Unsigned Dividend
+   li x2, 3		# Unsigned Divisor
+   li x3, -20	# Signed Dividend
+   li x4, -3	# Signed Divisor
+   
+   li x5, 6		# Quotient (20/3)
+   li x6, 2		# Remainder (20%3)
+   li x15, -2	# Remainder (-20%-3)
+   
+   # Unsigned division and remainder
+   divu x7, x1, x2	# (20/3)
+   remu x8, x1, x2	# (20%3)
+
+   # Signed division and remainder
+   div x9, x3, x4	# (-20/-3)
+   rem x10, x3, x4	# (-20%-3)
+   
+   # Checking division
+   bne x7, x5, fail
+   bne x8, x6, fail
+   
+   bne x9, x5, fail
+   bne x10, x15, fail
+   
+   # Dividend = Divisor * Quotient + Remainder
+   # Testing unsigned division
+   mul x11, x2, x7	# Divisor * Quotient
+   add x11, x11, x8 # Divisor * Quotient + Remainder
+   
+   # Comparing the result to the dividend
+   bne x11, x1, fail
+   
+   # Testing signed division
+   mul x12, x4, x9	# Divisor * Quotient
+   add x12, x12, x10 # Divisor * Quotient + Remainder
+   
+   # Comparing the result to the dividend
+   bne x12, x3, fail
+   
+   beq x0, x0, _boot
+   
+fail:
+	beq x0, x0, fail
+```
+
+- This simple RISC-V assembly program, essentially tests the MUL/DIV instructions present in the M extension
+  as well some basic RV32I instructions, where if the program is executed correctly, it results in an infinite
+  loop.
+
+---
+
 ## FPGA Implementation Results
 
 The following metrics were collected for the **Artix-7 FPGA** (maximum speed grade of 3):
