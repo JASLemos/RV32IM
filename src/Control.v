@@ -14,7 +14,6 @@ module Control(
     output reg [2:0] StoreControl,
     output reg [2:0] LoadControl,
     output reg [3:0] ALUOp,
-    output reg [1:0] MulControl,
     output reg [1:0] EXUControl,
     output reg DivControl,
     output reg div,
@@ -47,7 +46,6 @@ module Control(
                 ALUSrc = 1'b1;             // Use immediate for ALU address calculation
                 MemWrite = 1'b0;           // Read from memory
                 ResultSrc = 3'b001;        // Write back to the register
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -67,7 +65,6 @@ module Control(
                 ALUSrc = 1'b1;             // Use immediate for ALU
                 MemWrite = 1'b0;           // Read from memory
                 ResultSrc = 3'b000;        // Write ALU result to the register file
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -90,7 +87,6 @@ module Control(
                 ALUSrc = 1'bx;             // Whatever ALU operation
                 MemWrite = 1'b0;           // Don't write to memory
                 ResultSrc = 3'b011;        // PC + Immediate to register file
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -110,7 +106,6 @@ module Control(
                 ALUSrc = 1'b1;             // Use immediate for ALU address calculation
                 MemWrite = 1'b1;           // Write to memory
                 ResultSrc = 3'b000;        // Writeback unnecessary
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -137,7 +132,6 @@ module Control(
                 begin
                    EXUControl = 2'b00;     // ALU output
                    ResultSrc = 3'b000;     // Write ALU result to the register file
-                   MulControl = 2'bxx;     // Not a multiplication or division isntruction
                    DivControl = 1'bx;      // Not a multiplication or division isntruction
                    div = 1'b0;             // Not a multiplication or division isntruction
                    rem = 1'b0;             // Not a multiplication or division isntruction
@@ -149,7 +143,6 @@ module Control(
                     begin
                         EXUControl = 2'b11;
                         ResultSrc = 3'b100;        // Write Mul result to the register file
-                        MulControl = 2'b00;
                         DivControl = 1'bx;
                         div = 1'b0;
                         rem = 1'b0;
@@ -158,7 +151,6 @@ module Control(
                     begin
                         EXUControl = 2'b11;
                         ResultSrc = 3'b101;        // Write Mul result to the register file
-                        MulControl = 2'b01;
                         DivControl = 1'bx;
                         div = 1'b0;
                         rem = 1'b0;
@@ -167,7 +159,6 @@ module Control(
                     begin
                         EXUControl = 2'b11;
                         ResultSrc = 3'b101;        // Write Mul result to the register file
-                        MulControl = 2'b10;
                         DivControl = 1'bx;
                         div = 1'b0;
                         rem = 1'b0;
@@ -176,7 +167,6 @@ module Control(
                     begin
                         EXUControl = 2'b11;
                         ResultSrc = 3'b101;        // Write Mul result to the register file
-                        MulControl = 2'b11;
                         DivControl = 1'bx;
                         div = 1'b0;
                         rem = 1'b0;
@@ -185,7 +175,6 @@ module Control(
                     begin
                         EXUControl = 2'b01;
                         ResultSrc = 3'b000;     // Write ALU result to the register file
-                        MulControl = 2'bxx;
                         DivControl = 1'b1;
                         div = 1'b1;
                         rem = 1'b0;
@@ -194,7 +183,6 @@ module Control(
                     begin
                         EXUControl = 2'b01;
                         ResultSrc = 3'b000;     // Write ALU result to the register file
-                        MulControl = 2'bxx;
                         DivControl = 1'b0;
                         div = 1'b1;
                         rem = 1'b0;
@@ -203,7 +191,6 @@ module Control(
                     begin
                         EXUControl = 2'b10;
                         ResultSrc = 3'b000;     // Write ALU result to the register file
-                        MulControl = 2'bxx;
                         DivControl = 1'b1;
                         div = 1'b0;
                         rem = 1'b1;
@@ -212,7 +199,6 @@ module Control(
                     begin
                         EXUControl = 2'b10;
                         ResultSrc = 3'b000;     // Write ALU result to the register file
-                        MulControl = 2'bxx;
                         DivControl = 1'b0;
                         div = 1'b0;
                         rem = 1'b1;
@@ -230,7 +216,6 @@ module Control(
                 ALUSrc = 1'b1;             // Use immediate for ALU
                 MemWrite = 1'b0;           // Don't write to memory
                 ResultSrc = 3'b000;        // Write ALU result to the register file
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction            
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -250,7 +235,6 @@ module Control(
                 ALUSrc = 1'bx;             // Whatever ALU operation
                 MemWrite = 1'b0;           // Read from memory
                 ResultSrc = 3'b000;        // Writeback unnecessary
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = funct3;    // Branch operation determined by funct3
@@ -270,7 +254,6 @@ module Control(
                 ALUSrc = 1'bx;             // Whatever ALU source
                 MemWrite = 1'b0;           // Read from memory
                 ResultSrc = 3'b010;        // PC + 4 to register file
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -290,7 +273,6 @@ module Control(
                 ALUSrc = 1'bx;             // Whatever ALU source
                 MemWrite = 1'b0;           // Read from memory
                 ResultSrc = 3'b010;        // PC + 4 to register file
-                MulControl = 2'bxx;        // Not a multiplication or division instruction
                 DivControl = 1'bx;         // Not a multiplication or division instruction
                 EXUControl = 2'b00;        // ALU output
                 BranchControl = 3'bxxx;    // Not a branch instruction
@@ -310,7 +292,6 @@ module Control(
                 ALUSrc = 1'b0;
                 MemWrite = 1'b0;
                 ResultSrc = 3'b000;
-                MulControl = 2'bxx;        
                 DivControl = 1'bx;     
                 EXUControl = 2'b00;        
                 BranchControl = 3'bxxx;

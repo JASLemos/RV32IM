@@ -27,8 +27,10 @@ vlog -work xil_defaultlib  -incr -mfcu  \
 "../../../CPU.gen/sources_1/ip/ROM/sim/ROM.v" \
 "../../../../../src/ALU.v" \
 "../../../../../src/Adder.v" \
+"../../../../../src/Booth/Booth.v" \
 "../../../../../src/BranchUnit.v" \
 "../../../../../src/CPU.v" \
+"../../../../../src/Booth/CSA.v" \
 "../../../../../src/Control.v" \
 "../../../../../src/Divisor.v" \
 "../../../../../src/EXU.v" \
@@ -36,7 +38,7 @@ vlog -work xil_defaultlib  -incr -mfcu  \
 "../../../../../src/HazardControl.v" \
 "../../../../../src/IDU.v" \
 "../../../../../src/IFU.v" \
-"../../../../../src/wallace/KSA.v" \
+"../../../../../../Aritmethic/Booth/Teste/Knowles.v" \
 "../../../../../src/LoadDecoder.v" \
 "../../../../../src/MAU.v" \
 "../../../../../src/Mux.v" \
@@ -45,8 +47,6 @@ vlog -work xil_defaultlib  -incr -mfcu  \
 "../../../../../src/RegisterFile.v" \
 "../../../../../src/StoreDecoder.v" \
 "../../../../../src/WBU.v" \
-"../../../../../src/wallace/Wall.v" \
-"../../../../../src/wallace/Wallace_Tree.v" \
 "../../../../../tests/testbench.v" \
 
 vlog -work xil_defaultlib \

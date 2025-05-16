@@ -10,8 +10,6 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/Booth.v" in
 INFO: [VRFC 10-311] analyzing module Booth
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/BranchUnit.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module BranchUnit
-INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/CLA.v" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module CLA
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/CPU.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module CPU
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/Booth/CSA.v" into library xil_defaultlib
@@ -30,6 +28,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/IDU.v" into libra
 INFO: [VRFC 10-311] analyzing module IDU
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/IFU.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module IFU
+INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Aritmethic/Booth/Teste/Knowles.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Knowles
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/LoadDecoder.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module LoadDecoder
 INFO: [VRFC 10-2263] Analyzing Verilog file "E:/IC/Mark VI/src/MAU.v" into library xil_defaultlib

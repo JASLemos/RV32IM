@@ -50,35 +50,14 @@ module Booth #(
     end
   end
 
-  // Pipeline registers
-  reg signed [2*WIDTH-1:0] spp_reg [0:N-1];
-
-  integer i;
-  always @(posedge CLK) begin
-    if(RST)
-    begin
-      for(i=0;i<16;i=i+1)
-      begin
-        spp_reg[i] = 0;
-      end
-    end
-    else
-    begin
-      for(i=0;i<16;i=i+1)
-      begin
-        spp_reg[i] = spp[i];
-      end
-    end
-  end
-
   // Level 1, 5 to 3 compression
   wire [63:0] S0, C0, S1, C1, S2, C2, S3, C3, S4, C4;
 
-  CSA csa1(.A(spp_reg[0]),.B(spp_reg[1]),.C(spp_reg[2]),.Sum(S0),.Carry(C0));
-  CSA csa2(.A(spp_reg[3]),.B(spp_reg[4]),.C(spp_reg[5]),.Sum(S1),.Carry(C1));
-  CSA csa3(.A(spp_reg[6]),.B(spp_reg[7]),.C(spp_reg[8]),.Sum(S2),.Carry(C2));
-  CSA csa4(.A(spp_reg[9]),.B(spp_reg[10]),.C(spp_reg[11]),.Sum(S3),.Carry(C3));
-  CSA csa5(.A(spp_reg[12]),.B(spp_reg[13]),.C(spp_reg[14]),.Sum(S4),.Carry(C4));
+  CSA csa1(.A(spp[0]),.B(spp[1]),.C(spp[2]),.Sum(S0),.Carry(C0));
+  CSA csa2(.A(spp[3]),.B(spp[4]),.C(spp[5]),.Sum(S1),.Carry(C1));
+  CSA csa3(.A(spp[6]),.B(spp[7]),.C(spp[8]),.Sum(S2),.Carry(C2));
+  CSA csa4(.A(spp[9]),.B(spp[10]),.C(spp[11]),.Sum(S3),.Carry(C3));
+  CSA csa5(.A(spp[12]),.B(spp[13]),.C(spp[14]),.Sum(S4),.Carry(C4));
 
   // Level 2, 3 to 2 compression
   wire [63:0] S5, C5, S6, C6, S7, C7;
@@ -97,7 +76,7 @@ module Booth #(
   wire [63:0] S10, C10, S11, C11;
 
   CSA csa11(.A(S8), .B({C8[62:0],1'b0}), .C(S9), .Sum(S10), .Carry(C10));
-  CSA csa12(.A({C9[62:0],1'b0}), .B({C4[62:0],1'b0}), .C(spp_reg[15]), .Sum(S11), .Carry(C11));
+  CSA csa12(.A({C9[62:0],1'b0}), .B({C4[62:0],1'b0}), .C(spp[15]), .Sum(S11), .Carry(C11));
 
   // Level 5
   wire [63:0] S12, C12;
@@ -107,9 +86,27 @@ module Booth #(
   // Level 6
   wire [63:0] S13, C13;
   CSA csa14(.A(S12), .B({C12[62:0],1'b0}), .C({C11[62:0],1'b0}), .Sum(S13), .Carry(C13));
-
+  
+  reg signed [63:0] C13_reg, S13_reg;
+  
+  always@(posedge CLK)
+  begin
+    if(RST)
+    begin
+        C13_reg <= 0;
+        S13_reg <= 0;
+    end
+    else
+    begin
+        C13_reg <= C13;
+        S13_reg <= S13;
+    end
+  end
+  
   // Final adder
-  CLA #(.WIDTH(64)) CPA(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .S(prod));
+  //CLA #(.WIDTH(64)) CPA(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .S(prod));
+  //KSA KoggeStone(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .Sum(p));
+  Knowles CPA(.A(S13_reg), .B({C13_reg[62:0],1'b0}), .Cin(1'b0), .Sum(prod));
 
   always @(posedge CLK) begin
     if(RST)

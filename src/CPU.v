@@ -14,7 +14,7 @@ module CPU(
   wire [4:0] rs1D, rs2D, rs1E, rs2E, rdE;
   wire [3:0] ALUOpE;
   wire [2:0] StoreControlE, LoadControlE, BranchControlE, ResultSrcE;
-  wire [1:0] MulControlE, EXUControlE;
+  wire [1:0] EXUControlE;
   wire RegWriteE, MemWriteE, ALUSrcE, DivControlE, PCTargetSrcE;
   wire jalE, jalrE,DivStartE;
 
@@ -112,7 +112,6 @@ module CPU(
         .MemWriteE(MemWriteE),
         .ALUSrcE(ALUSrcE),
         .ResultSrcE(ResultSrcE),
-        .MulControlE(MulControlE),
         .DivControlE(DivControlE),
         .EXUControlE(EXUControlE),
         .PCTargetSrcE(PCTargetSrcE),
@@ -134,7 +133,6 @@ module CPU(
         .ALUSrcE(ALUSrcE),
         .EXUControlE(EXUControlE),
         .ResultSrcE(ResultSrcE),
-        .MulControlE(MulControlE),
         .DivControlE(DivControlE),
         .PCTargetSrcE(PCTargetSrcE),
         .ForwardAE(ForwardAE),

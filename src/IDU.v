@@ -7,7 +7,7 @@ module IDU(
     output [4:0] rs1D, rs2D,
     output reg [3:0] ALUOpE,
     output reg [2:0] ResultSrcE, StoreControlE, LoadControlE, BranchControlE,
-    output reg [1:0] MulControlE, EXUControlE,
+    output reg [1:0] EXUControlE,
     output reg RegWriteE, MemWriteE, ALUSrcE, DivControlE,
     output reg jalE, jalrE, PCTargetSrcE, DivStartE
   );
@@ -17,7 +17,7 @@ module IDU(
   reg divE, remE;
   wire RegWriteD, MemWriteD, jalrD, jalD, ALUSrcD;
   wire PCTargetSrcD, DivControlD, divD, remD;
-  wire [1:0] EXUControlD, MulControlD;
+  wire [1:0] EXUControlD;
   wire [2:0] ResultSrcD, BranchControlD, StoreControlD, LoadControlD, ImmSrcD;
   wire [3:0] ALUOpD;
 
@@ -58,7 +58,6 @@ module IDU(
             .PCTargetSrc(PCTargetSrcD),
             .RegWrite(RegWriteD),
             .ALUOp(ALUOpD),
-            .MulControl(MulControlD),
             .DivControl(DivControlD),
             .EXUControl(EXUControlD),
             .div(divD),
@@ -104,7 +103,6 @@ module IDU(
             StoreControlE <= 0;
             BranchControlE <= 3'bxxx;
             ResultSrcE <= 0;
-            MulControlE <= 0;
             DivControlE <= 0;
             EXUControlE <= 0;
             PCTargetSrcE <= 0;
@@ -133,7 +131,6 @@ module IDU(
             StoreControlE <= StoreControlD;
             BranchControlE <= BranchControlD;
             ResultSrcE <= ResultSrcD;
-            MulControlE <= MulControlD;
             DivControlE <= DivControlD;
             PCTargetSrcE <= PCTargetSrcD;
             ALUSrcE <= ALUSrcD;

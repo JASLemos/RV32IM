@@ -6,7 +6,6 @@ verilog xil_defaultlib  \
 "../../../../../../src/Adder.v" \
 "../../../../../../src/Booth/Booth.v" \
 "../../../../../../src/BranchUnit.v" \
-"../../../../../../src/Booth/CLA.v" \
 "../../../../../../src/CPU.v" \
 "../../../../../../src/Booth/CSA.v" \
 "../../../../../../src/Control.v" \
@@ -16,6 +15,7 @@ verilog xil_defaultlib  \
 "../../../../../../src/HazardControl.v" \
 "../../../../../../src/IDU.v" \
 "../../../../../../src/IFU.v" \
+"../../../../../../../Aritmethic/Booth/Teste/Knowles.v" \
 "../../../../../../src/LoadDecoder.v" \
 "../../../../../../src/MAU.v" \
 "../../../../../../src/Mux.v" \

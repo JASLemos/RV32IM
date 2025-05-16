@@ -28,7 +28,7 @@ Compiling module xil_defaultlib.BranchUnit
 Compiling module xil_defaultlib.ALU
 Compiling module xil_defaultlib.Divisor
 Compiling module xil_defaultlib.CSA
-Compiling module xil_defaultlib.CLA(WIDTH=64)
+Compiling module xil_defaultlib.Knowles
 Compiling module xil_defaultlib.Booth_default
 Compiling module xil_defaultlib.EXU
 Compiling module blk_mem_gen_v8_4_9.blk_mem_gen_v8_4_9_output_stage(...

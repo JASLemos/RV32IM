@@ -1,7 +1,7 @@
 module EXU(
     input CLK, RST, RegWriteE, MemWriteE, ALUSrcE, DivControlE,
     input DivStartE, jalE, jalrE, PCTargetSrcE, 
-    input [1:0] MulControlE, EXUControlE, ForwardAE, ForwardBE,
+    input [1:0] EXUControlE, ForwardAE, ForwardBE,
     input [2:0] ResultSrcE, LoadControlE, StoreControlE, BranchControlE, 
     input [3:0] ALUOpE,
     input [4:0] rdE,
@@ -124,17 +124,7 @@ module EXU(
         .Remainder(Remainder),
         .done(DivDone)
        );
-       
-  /*
-  Wallace_Tree Multiplier(
-        .CLK(CLK),
-        .RST(RST),
-        .a(SrcAE),
-        .b(ForwardBEOut),
-        .mode(MulControlE),
-        .product(MulResultM)
-       );
-  */
+
   Booth Multiplier(
         .CLK(CLK),
         .RST(RST),
