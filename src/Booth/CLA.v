@@ -7,16 +7,13 @@ module CLA
     output Cout
   );
 
-  wire [WIDTH:0] Ci; // Carry intermediate for intermediate computation
-
+  wire [WIDTH:0] Ci; // Intermediate carries
   assign Ci[0] = Cin;
 
   genvar i;
   generate
-    for (i = 1; i < WIDTH; i = i + 1) begin : carry_gen
-      begin
-        assign Ci[i + 1] = (A[i] & B[i]) | ((A[i] ^ B[i]) & Ci[i]);
-      end
+    for (i = 0; i < WIDTH; i = i + 1) begin : carry_gen
+      assign Ci[i + 1] = (A[i] & B[i]) | ((A[i] ^ B[i]) & Ci[i]);
     end
   endgenerate
 
