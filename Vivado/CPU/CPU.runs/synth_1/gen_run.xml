@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a50tcsg324-3" LaunchTime="1745937018" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/CPU.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a50tcsg324-3" LaunchTime="1747789541" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/CPU.dcp">
+  <File Type="PA-TCL" Name="CPU.tcl"/>
   <File Type="REPORTS-TCL" Name="CPU_reports.tcl"/>
+  <File Type="RDS-RDS" Name="CPU.vds"/>
+  <File Type="RDS-PROPCONSTRS" Name="CPU_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="CPU_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="CPU_utilization_synth.pb"/>
-  <File Type="PA-TCL" Name="CPU.tcl"/>
-  <File Type="RDS-RDS" Name="CPU.vds"/>
   <File Type="RDS-DCP" Name="CPU.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="CPU_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="CPU_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PPRDIR/../../src/ALU.v">
@@ -30,13 +33,6 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../src/BranchUnit.v">
-      <FileInfo>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../src/Booth/CLA.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -93,6 +89,13 @@
       </FileInfo>
     </File>
     <File Path="$PPRDIR/../../src/IFU.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../../../Aritmethic/Booth/Teste/Knowles.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
@@ -162,7 +165,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../src/wallace/KSA.v">
+    <File Path="$PPRDIR/../../../Aritmethic/Booth/Teste/KSA.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
@@ -170,15 +173,7 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PPRDIR/../../src/wallace/Wall.v">
-      <FileInfo>
-        <Attr Name="AutoDisabled" Val="1"/>
-        <Attr Name="UsedIn" Val="synthesis"/>
-        <Attr Name="UsedIn" Val="implementation"/>
-        <Attr Name="UsedIn" Val="simulation"/>
-      </FileInfo>
-    </File>
-    <File Path="$PPRDIR/../../src/wallace/Wallace_Tree.v">
+    <File Path="$PPRDIR/../../src/Booth/CLA.v">
       <FileInfo>
         <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>

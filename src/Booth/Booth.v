@@ -105,7 +105,7 @@ module Booth #(
   
   // Final adder
   //CLA #(.WIDTH(64)) CPA(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .S(prod));
-  //KSA KoggeStone(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .Sum(p));
+  //KSA CPA(.A(S13), .B({C13[62:0],1'b0}), .Cin(1'b0), .Sum(p));
   Knowles CPA(.A(S13_reg), .B({C13_reg[62:0],1'b0}), .Cin(1'b0), .Sum(prod));
 
   always @(posedge CLK) begin

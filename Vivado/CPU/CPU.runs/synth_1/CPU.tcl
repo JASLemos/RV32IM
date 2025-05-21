@@ -56,7 +56,7 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param synth.incrementalSynthesisCache C:/Users/JOSS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19020-DESKTOP-IQB8PGC/incrSyn
+set_param synth.incrementalSynthesisCache {E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-18496-DESKTOP-IQB8PGC/incrSyn}
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_msg_config -id {Synth 8-256} -limit 10000
 set_msg_config -id {Synth 8-638} -limit 10000
@@ -86,7 +86,6 @@ read_verilog -library xil_defaultlib {
   {E:/IC/Mark VI/src/Adder.v}
   {E:/IC/Mark VI/src/Booth/Booth.v}
   {E:/IC/Mark VI/src/BranchUnit.v}
-  {E:/IC/Mark VI/src/Booth/CLA.v}
   {E:/IC/Mark VI/src/Booth/CSA.v}
   {E:/IC/Mark VI/src/Control.v}
   {E:/IC/Mark VI/src/Divisor.v}
@@ -95,6 +94,7 @@ read_verilog -library xil_defaultlib {
   {E:/IC/Mark VI/src/HazardControl.v}
   {E:/IC/Mark VI/src/IDU.v}
   {E:/IC/Mark VI/src/IFU.v}
+  E:/IC/Aritmethic/Booth/Teste/Knowles.v
   {E:/IC/Mark VI/src/LoadDecoder.v}
   {E:/IC/Mark VI/src/MAU.v}
   {E:/IC/Mark VI/src/Mux.v}

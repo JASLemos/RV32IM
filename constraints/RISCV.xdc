@@ -1,5 +1,5 @@
 # Creating clock
-create_clock -name CLK -period 20.000 [get_ports CLK]
+create_clock -name CLK -period 10.000 [get_ports CLK]
 
 # Input delays
 set_input_delay -clock [get_clocks CLK] -max 0.500 [get_ports RST]

@@ -107,7 +107,7 @@ set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
   set_param chipscope.maxJobs 3
-  set_param synth.incrementalSynthesisCache C:/Users/JOSS/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-19020-DESKTOP-IQB8PGC/incrSyn
+  set_param synth.incrementalSynthesisCache {E:/IC/Mark VI/Vivado/CPU/.Xil/Vivado-18496-DESKTOP-IQB8PGC/incrSyn}
   set_param checkpoint.writeSynthRtdsInDcp 1
   set_param runs.launchOptions { -jobs 12  }
 OPTRACE "create in-memory project" START { }
