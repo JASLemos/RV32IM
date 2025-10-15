@@ -24,11 +24,10 @@ The following metrics were collected for the **Artix-7 FPGA** (maximum speed gra
 
 | **Metric**               | **Value**             |
 |--------------------------|-----------------------|
-| **Maximum Clock Frequency** | 100 MHz            |
+| **Maximum Clock Frequency** | 84 MHz             |
 | **Resource Utilization**   |                     |
-| - LUTs                    | 827                  |
-| - FFs                     | 569                  |
-| - RAMB18K Blocks          | 1                    |
+| - LUTs                    | 3464                 |
+| - FFs                     | 898                  |
 
 ---
 
