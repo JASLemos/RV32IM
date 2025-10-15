@@ -22,13 +22,14 @@ module CPU(
   wire [63:0] MulResultW;
   wire [31:0] ALUResultM, PCPlus4M, PCTargetE, PCTargetM, WriteDataM;
   wire [4:0] rdM;
+  wire [3:0] WriteEnableM;
   wire [2:0] LoadControlM, ResultSrcM;
   wire RegWriteM, MemWriteM, PCSrcE, DivDone;
 
   // Memory Access Unit wires
   wire [31:0] ALUResultW, ReadDataW, PCPlus4W, PCTargetW;
   wire [4:0] rdW;
-  wire [2:0] LoadControlW, ResultSrcW;
+  wire [2:0] ResultSrcW;
   wire RegWriteW;
 
   // Writeback Unit wires
@@ -159,6 +160,7 @@ module CPU(
         .LoadControlM(LoadControlM),
         .rdM(rdM),
         .WriteDataM(WriteDataM),
+        .WriteEnableM(WriteEnableM),
         .PCPlus4M(PCPlus4M),
         .PCTargetM(PCTargetM),
         .ALUResultM(ALUResultM),
@@ -177,10 +179,10 @@ module CPU(
         .rdM(rdM),
         .ALUResultM(ALUResultM),
         .WriteDataM(WriteDataM),
+        .WriteEnableM(WriteEnableM),
         .PCPlus4M(PCPlus4M),
         .PCTargetM(PCTargetM),
         .RegWriteW(RegWriteW),
-        .LoadControlW(LoadControlW),
         .ResultSrcW(ResultSrcW),
         .rdW(rdW),
         .ALUResultW(ALUResultW),
@@ -192,7 +194,6 @@ module CPU(
   // Writeback Unit
   WBU WritebackUnit (
         .ResultSrcW(ResultSrcW),
-        .LoadControlW(LoadControlW),
         .ALUResultW(ALUResultW),
         .ReadDataW(ReadDataW),
         .PCPlus4W(PCPlus4W),

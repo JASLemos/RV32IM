@@ -11,7 +11,7 @@ module ROM (
 );
 
   (* X_INTERFACE_IGNORE = "true" *)
-  input [7:0]a;
+  input [6:0]a;
   (* X_INTERFACE_IGNORE = "true" *)
   output [31:0]spo;
 

@@ -1,12 +1,3 @@
-sv xpm  \
-"E:/Vivado/Vivado/2024.2/data/ip/xpm/xpm_memory/hdl/xpm_memory.sv" \
-
-verilog blk_mem_gen_v8_4_9  \
-"../../ipstatic/simulation/blk_mem_gen_v8_4.v" \
-
-verilog xil_defaultlib  \
-"../../../CPU.gen/sources_1/ip/RAM/sim/RAM.v" \
-
 verilog dist_mem_gen_v8_0_15  \
 "../../ipstatic/simulation/dist_mem_gen_v8_0.v" \
 
@@ -14,10 +5,10 @@ verilog xil_defaultlib  \
 "../../../CPU.gen/sources_1/ip/ROM/sim/ROM.v" \
 "../../../../../src/ALU.v" \
 "../../../../../src/Adder.v" \
-"../../../../../src/Booth/Booth.v" \
+"../../../../../src/Booth.v" \
 "../../../../../src/BranchUnit.v" \
 "../../../../../src/CPU.v" \
-"../../../../../src/Booth/CSA.v" \
+"../../../../../src/CSA.v" \
 "../../../../../src/Control.v" \
 "../../../../../src/Divisor.v" \
 "../../../../../src/EXU.v" \
@@ -25,13 +16,15 @@ verilog xil_defaultlib  \
 "../../../../../src/HazardControl.v" \
 "../../../../../src/IDU.v" \
 "../../../../../src/IFU.v" \
-"../../../../../../Aritmethic/Booth/Teste/Knowles.v" \
+"../../../../../src/Knowles.v" \
 "../../../../../src/LoadDecoder.v" \
 "../../../../../src/MAU.v" \
 "../../../../../src/Mux.v" \
 "../../../../../src/Mux4x1.v" \
+"../../../../../src/RAM.v" \
 "../../../../../src/Register.v" \
 "../../../../../src/RegisterFile.v" \
+"../../../../../src/SRAM.v" \
 "../../../../../src/StoreDecoder.v" \
 "../../../../../src/WBU.v" \
 "../../../../../tests/testbench.v" \

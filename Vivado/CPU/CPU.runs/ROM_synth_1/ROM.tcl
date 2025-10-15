@@ -56,10 +56,11 @@ if {$::dispatch::connected} {
 }
 
 OPTRACE "ROM_synth_1" START { ROLLUP_AUTO }
+set_param tcl.statsThreshold 360
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
-create_project -in_memory -part xc7a50tcsg324-3
+create_project -in_memory -part xc7a50ticsg324-1L
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
@@ -67,14 +68,14 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir {E:/IC/Mark VI/Vivado/CPU/CPU.cache/wt} [current_project]
 set_property parent.project_path {E:/IC/Mark VI/Vivado/CPU/CPU.xpr} [current_project]
-set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
+set_property board_part digilentinc.com:nexys-a7-50t:part0:1.3 [current_project]
 set_property ip_output_repo {e:/IC/Mark VI/Vivado/CPU/CPU.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet {{E:/IC/Mark VI/Vivado/CPU/CPU.srcs/sources_1/ip/ROM/ROM.xci}}
+read_ip -quiet {{e:/IC/Mark VI/Vivado/CPU/CPU.srcs/sources_1/ip/ROM/ROM.xci}}
 set_property used_in_implementation false [get_files -all {{e:/IC/Mark VI/Vivado/CPU/CPU.gen/sources_1/ip/ROM/ROM_ooc.xdc}}]
 
 OPTRACE "Adding files" END { }
@@ -98,7 +99,7 @@ if { $cacheID == "" } {
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top ROM -part xc7a50tcsg324-3 -incremental_mode off -mode out_of_context
+synth_design -top ROM -part xc7a50ticsg324-1L -incremental_mode off -mode out_of_context
 OPTRACE "synth_design" END { }
 OPTRACE "Write IP Cache" START { }
 

@@ -8,6 +8,7 @@ module EXU(
     input [31:0] RD1E, RD2E, ImmExtE, PCE,PCPlus4E, ResultW,
     output reg RegWriteM, MemWriteM,
     output reg [2:0] LoadControlM, ResultSrcM,
+    output reg [3:0] WriteEnableM,
     output reg [4:0] rdM,
     output reg [31:0] WriteDataM, PCPlus4M, PCTargetM, ALUResultM,
     output [31:0] PCTargetE,
@@ -17,6 +18,7 @@ module EXU(
    
   wire [31:0] SrcAE, SrcBE, ForwardBEOut, WriteBus;
   wire [31:0] PCTargetMuxOut, QuotientE, Remainder, ResultE, ALUResultE;
+  wire [3:0] WriteEnableE;
   wire BranchE;
   
   reg [31:0] Dividend, Divisor, RemainderE;
@@ -42,13 +44,6 @@ module EXU(
            .Sel(ForwardBE),
            .out(ForwardBEOut)
          );
-
-
-  StoreDecoder SD(
-                 .WriteBus(ForwardBEOut),
-                 .StoreControl(StoreControlE),
-                 .WriteDataE(WriteBus)
-               );
                
                
   BranchUnit BU(
@@ -88,6 +83,15 @@ module EXU(
         .ALUOp(ALUOpE),
         .out(ALUResultE)
       );
+      
+      
+  StoreDecoder SD(
+        .WriteBus(ForwardBEOut),
+        .StoreControl(StoreControlE),
+        .Addr(ALUResultE[1:0]),
+        .WriteDataE(WriteBus),
+        .WE(WriteEnableE)
+       );
       
   
   // Risign edge trigger for Start signal
@@ -160,6 +164,7 @@ module EXU(
             ResultSrcM <= 0;
             LoadControlM <= 0;
             RegWriteM <= 0;
+            WriteEnableM <= 0;
         end
         else
         begin
@@ -172,6 +177,7 @@ module EXU(
             ResultSrcM <= ResultSrcE;
             LoadControlM <= LoadControlE;
             RegWriteM <= RegWriteE;
+            WriteEnableM <= WriteEnableE;
         end
     end
     

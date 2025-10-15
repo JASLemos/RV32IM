@@ -16,11 +16,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 16 19:36:20 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:18 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:ff447968</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -34,11 +34,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 16 19:36:32 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:19:08 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:ff447968</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -49,7 +49,7 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:ff447968</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -65,11 +65,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 02 22:00:38 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:19 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:5b3bfe22</spirit:value>
+            <spirit:value>9:d0f8411e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -84,11 +84,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 02 22:00:38 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:17 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cd0b79d4</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -104,11 +104,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 02 22:00:38 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:19 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:5b3bfe22</spirit:value>
+            <spirit:value>9:d0f8411e</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -122,11 +122,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Wed Apr 02 22:00:38 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:19 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:cd0b79d4</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -142,11 +142,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 16 19:36:21 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:19 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:ff447968</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -162,11 +162,11 @@
         <spirit:parameters>
           <spirit:parameter>
             <spirit:name>GENtimestamp</spirit:name>
-            <spirit:value>Fri May 16 19:36:21 UTC 2025</spirit:value>
+            <spirit:value>Wed Oct 15 20:18:19 UTC 2025</spirit:value>
           </spirit:parameter>
           <spirit:parameter>
             <spirit:name>outputProductCRC</spirit:name>
-            <spirit:value>9:ff447968</spirit:value>
+            <spirit:value>9:4ad33d1c</spirit:value>
           </spirit:parameter>
         </spirit:parameters>
       </spirit:view>
@@ -177,7 +177,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;))-1)">7</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="(spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;))-1)">6</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -231,7 +231,7 @@
         <spirit:wire>
           <spirit:direction>in</spirit:direction>
           <spirit:vector>
-            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;))-1">7</spirit:left>
+            <spirit:left spirit:format="long" spirit:resolve="dependent" spirit:dependency="spirit:decode(id(&apos;MODELPARAM_VALUE.C_ADDR_WIDTH&apos;))-1">6</spirit:left>
             <spirit:right spirit:format="long">0</spirit:right>
           </spirit:vector>
           <spirit:wireTypeDefs>
@@ -587,7 +587,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_ADDR_WIDTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_WIDTH">8</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_ADDR_WIDTH">7</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="string">
         <spirit:name>C_DEFAULT_DATA</spirit:name>
@@ -595,7 +595,7 @@
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_DEPTH</spirit:name>
-        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DEPTH">256</spirit:value>
+        <spirit:value spirit:format="long" spirit:resolve="generated" spirit:id="MODELPARAM_VALUE.C_DEPTH">128</spirit:value>
       </spirit:modelParameter>
       <spirit:modelParameter spirit:dataType="integer">
         <spirit:name>C_HAS_CLK</spirit:name>
@@ -872,7 +872,7 @@
     <spirit:parameter>
       <spirit:name>depth</spirit:name>
       <spirit:displayName>Depth</spirit:displayName>
-      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.depth" spirit:order="2" spirit:minimum="16" spirit:maximum="65536" spirit:rangeType="long">256</spirit:value>
+      <spirit:value spirit:format="long" spirit:resolve="user" spirit:id="PARAM_VALUE.depth" spirit:order="2" spirit:minimum="16" spirit:maximum="65536" spirit:rangeType="long">128</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>data_width</spirit:name>
@@ -952,7 +952,7 @@
     <spirit:parameter>
       <spirit:name>coefficient_file</spirit:name>
       <spirit:displayName>Coefficients File</spirit:displayName>
-      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.coefficient_file" spirit:order="18">../../../../../../Memory initialization/muldiv.coe</spirit:value>
+      <spirit:value spirit:resolve="user" spirit:id="PARAM_VALUE.coefficient_file" spirit:order="18">../../../../../../Memory initialization/LoadStore.coe</spirit:value>
     </spirit:parameter>
     <spirit:parameter>
       <spirit:name>default_data_radix</spirit:name>
@@ -1011,7 +1011,7 @@
       </xilinx:configElementInfos>
     </xilinx:coreExtensions>
     <xilinx:packagingInfo>
-      <xilinx:xilinxVersion>2024.1</xilinx:xilinxVersion>
+      <xilinx:xilinxVersion>2024.2</xilinx:xilinxVersion>
       <xilinx:checksum xilinx:scope="fileGroups" xilinx:value="fd6e297e"/>
       <xilinx:checksum xilinx:scope="ports" xilinx:value="2102dedf"/>
       <xilinx:checksum xilinx:scope="hdlParameters" xilinx:value="ca0ebda1"/>
