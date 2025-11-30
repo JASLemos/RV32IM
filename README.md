@@ -20,7 +20,7 @@ that implements **Restoring Division Algorithm**.
 
 ## FPGA Implementation Results
 
-The following metrics were collected for the **Artix-7 FPGA** (maximum speed grade of 3, results will vary according to FPGA model and speed grade):
+The following metrics were collected for the **Artix-7 FPGA**:
 
 | **Metric**               | **Value**             |
 |--------------------------|-----------------------|
